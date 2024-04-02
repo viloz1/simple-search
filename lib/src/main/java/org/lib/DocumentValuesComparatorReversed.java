@@ -2,7 +2,7 @@ package org.lib;
 
 import java.util.Comparator;
 
-// creates the comparator for comparing stock value
+// creates the comparator for comparing document values value
 public class DocumentValuesComparatorReversed implements Comparator<DocumentValue> {
     @Override
     public int compare(DocumentValue o1, DocumentValue o2) {

@@ -1,10 +1,11 @@
-package org.lib.document;
-import java.io.File;  // Import the File class
-import java.io.FileNotFoundException;  // Import this class to handle errors
+package org.lib;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+//Representation of a Document. Read its content, and then store the content and filename in the object
 public class Document {
     String fileName;
     ArrayList<String> contents;
