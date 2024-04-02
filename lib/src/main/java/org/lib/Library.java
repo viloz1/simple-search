@@ -35,7 +35,7 @@ public class Library {
             return;
         }
         long end = System.currentTimeMillis();
-        System.out.printf("Parsing took %s ms\n", end-start);
+        System.out.printf("Parsing took %d ms with %s unique words.\n", end-start, engine.wordOccurrencesTFIDF.size());
         System.out.println( "Type the word you would like to search for:" );
         Scanner shell = new Scanner(System.in);
         while(true) {
